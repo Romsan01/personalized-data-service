@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "3c9248c8-488f-4b97-b54e-d048373e0065",
+		"name": "TEST Kafka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Load Products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"productId\": \"BG-419110951\",\n    \"category\": \"Babies\",\n    \"brand\": \"Girlds\"\n  },\n  {\n    \"productId\": \"BG-419110952\",\n    \"category\": \"Babies\",\n    \"brand\": \"Girlds\"\n  },\n  {\n    \"productId\": \"BG-419110953\",\n    \"category\": \"Babies\",\n    \"brand\": \"Girlds\"\n  },\n  {\n    \"productId\": \"BB-2144746855\",\n    \"category\": \"Babies\",\n    \"brand\": \"Babyom\"\n  },\n  {\n    \"productId\": \"BB-2144746856\",\n    \"category\": \"Babies\",\n    \"brand\": \"Babyom\"\n  },\n  {\n    \"productId\": \"BB-2144746857\",\n    \"category\": \"Babies\",\n    \"brand\": \"Babyom\"\n  },\n  {\n    \"productId\": \"BM-1173639537\",\n    \"category\": \"Babies\",\n    \"brand\": \"Mommers\"\n  },\n  {\n    \"productId\": \"BM-1173639538\",\n    \"category\": \"Babies\",\n    \"brand\": \"Mommers\"\n  },\n  {\n    \"productId\": \"BM-1173639539\",\n    \"category\": \"Babies\",\n    \"brand\": \"Mommers\"\n  },\n  {\n    \"productId\": \"BC-989301223\",\n    \"category\": \"Babies\",\n    \"brand\": \"Childer\"\n  },\n  {\n    \"productId\": \"BC-989301224\",\n    \"category\": \"Babies\",\n    \"brand\": \"Childer\"\n  },\n  {\n    \"productId\": \"BC-989301225\",\n    \"category\": \"Babies\",\n    \"brand\": \"Childer\"\n  },\n  {\n    \"productId\": \"MM-749337358\",\n    \"category\": \"Milk\",\n    \"brand\": \"Milkcask\"\n  },\n  {\n    \"productId\": \"MM-749337359\",\n    \"category\": \"Milk\",\n    \"brand\": \"Milkcask\"\n  },\n  {\n    \"productId\": \"MM-749337360\",\n    \"category\": \"Milk\",\n    \"brand\": \"Milkcask\"\n  },\n  {\n    \"productId\": \"MJ-373746709\",\n    \"category\": \"Milk\",\n    \"brand\": \"Juice\"\n  },\n  {\n    \"productId\": \"MJ-373746710\",\n    \"category\": \"Milk\",\n    \"brand\": \"Juice\"\n  },\n  {\n    \"productId\": \"MJ-373746711\",\n    \"category\": \"Milk\",\n    \"brand\": \"Juice\"\n  },\n  {\n    \"productId\": \"MD-543564695\",\n    \"category\": \"Milk\",\n    \"brand\": \"Dairylounge\"\n  },\n  {\n    \"productId\": \"MD-543564696\",\n    \"category\": \"Milk\",\n    \"brand\": \"Dairylounge\"\n  },\n  {\n    \"productId\": \"MD-543564697\",\n    \"category\": \"Milk\",\n    \"brand\": \"Dairylounge\"\n  },\n  {\n    \"productId\": \"MB-2093193397\",\n    \"category\": \"Milk\",\n    \"brand\": \"Berrycow\"\n  },\n  {\n    \"productId\": \"MB-2093193398\",\n    \"category\": \"Milk\",\n    \"brand\": \"Berrycow\"\n  },\n  {\n    \"productId\": \"MB-2093193399\",\n    \"category\": \"Milk\",\n    \"brand\": \"Berrycow\"\n  },\n  {\n    \"productId\": \"ST-348265157\",\n    \"category\": \"Sports\",\n    \"brand\": \"Trand\"\n  },\n  {\n    \"productId\": \"ST-348265158\",\n    \"category\": \"Sports\",\n    \"brand\": \"Trand\"\n  },\n  {\n    \"productId\": \"ST-348265159\",\n    \"category\": \"Sports\",\n    \"brand\": \"Trand\"\n  },\n  {\n    \"productId\": \"SB-51995577\",\n    \"category\": \"Sports\",\n    \"brand\": \"Ballshop\"\n  },\n  {\n    \"productId\": \"SB-51995578\",\n    \"category\": \"Sports\",\n    \"brand\": \"Ballshop\"\n  },\n  {\n    \"productId\": \"SB-51995579\",\n    \"category\": \"Sports\",\n    \"brand\": \"Ballshop\"\n  },\n  {\n    \"productId\": \"SC-860550237\",\n    \"category\": \"Sports\",\n    \"brand\": \"Crumyard\"\n  },\n  {\n    \"productId\": \"SC-860550238\",\n    \"category\": \"Sports\",\n    \"brand\": \"Crumyard\"\n  },\n  {\n    \"productId\": \"SC-860550239\",\n    \"category\": \"Sports\",\n    \"brand\": \"Crumyard\"\n  },\n  {\n    \"productId\": \"SS-1529984359\",\n    \"category\": \"Sports\",\n    \"brand\": \"Sportf\"\n  },\n  {\n    \"productId\": \"SS-1529984360\",\n    \"category\": \"Sports\",\n    \"brand\": \"Sportf\"\n  },\n  {\n    \"productId\": \"SS-1529984361\",\n    \"category\": \"Sports\",\n    \"brand\": \"Sportf\"\n  },\n  {\n    \"productId\": \"VV-1280808854\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Veganoid\"\n  },\n  {\n    \"productId\": \"VV-1280808855\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Veganoid\"\n  },\n  {\n    \"productId\": \"VV-1280808856\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Veganoid\"\n  },\n  {\n    \"productId\": \"VT-246442909\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Tarcrop\"\n  },\n  {\n    \"productId\": \"VT-246442910\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Tarcrop\"\n  },\n  {\n    \"productId\": \"VT-246442911\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Tarcrop\"\n  },\n  {\n    \"productId\": \"VB-1890577306\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Beanut\"\n  },\n  {\n    \"productId\": \"VB-1890577307\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Beanut\"\n  },\n  {\n    \"productId\": \"VB-1890577308\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Beanut\"\n  },\n  {\n    \"productId\": \"VA-1329167330\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Avocadow\"\n  },\n  {\n    \"productId\": \"VA-1329167331\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Avocadow\"\n  },\n  {\n    \"productId\": \"VA-1329167332\",\n    \"category\": \"Vegan\",\n    \"brand\": \"Avocadow\"\n  }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/produce/Product/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"produce",
+						"Product",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Load Personalized Data",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

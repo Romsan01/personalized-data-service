@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "43916da2-22f8-4762-a4dc-1db418e8960c",
+		"name": "Web",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetShopperById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/shoppers/byProduct/MB-2093193397",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"shoppers",
+						"byProduct",
+						"MB-2093193397"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProductByShopper",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/products/byShopper/S-1002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"byShopper",
+						"S-1002"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
